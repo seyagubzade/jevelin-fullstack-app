@@ -1,0 +1,48 @@
+.prods {
+    background: #363636;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    .section-header {
+        text-align: center;
+        h4 {
+            color: #9b9b9b;
+            font-size: 12px;
+            font-weight: 900;
+        }
+        h2 {
+            font-size: 3rem;
+            color: #fff;
+            font-weight: 900;
+        }
+       
+    }
+    .actions {
+        z-index: 100;
+    }
+    .item-card {
+        background: #2b2b2b;
+        padding: 20px 10px 0;
+        position: relative;
+        h5{
+            font-size:12px;
+        }
+        .img-container {
+            height: 150px;
+            overflow: hidden;
+            width: 100%;
+            position: relative;
+            img {
+                width: 100%;
+                object-fit: cover;
+                z-index: 50;
+                position: absolute;
+                bottom: 0;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}

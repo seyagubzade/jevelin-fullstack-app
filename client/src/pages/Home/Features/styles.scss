@@ -1,0 +1,46 @@
+.features {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .content {
+        padding: 30px;
+        .section-header {
+            h4 {
+                color: #a9a0b8;
+                font-size: 12px;
+                font-weight: 900;
+            }
+            h2 {
+                font-size: 3.5rem;
+                color: #3f3849;
+                font-weight: 900;
+            }
+        }
+        .feature-cards{
+            .feature-card{
+                padding: 14px 0;
+                .icon{
+                    width: 40px;
+                    font-size: 28px;
+                    color: #7D1EFF;
+                    margin-right: 20px;
+                }
+                .card-content{
+                    margin-top: 8px;
+                    h3{
+                        font-size: 18px;
+                        font-weight: 900;
+                        color: #3f3849;
+                        
+                    }
+                    p{
+                        margin-top: 20px;
+                        color: #8c8794;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}
